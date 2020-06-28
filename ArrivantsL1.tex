@@ -1,0 +1,116 @@
+\documentclass[]{report}
+
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[light, largesmallcaps, oldstyle]{kpfonts}
+\usepackage[french]{babel}
+\usepackage{listings}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage{charter}
+\usepackage{graphicx}
+
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Large}
+ 
+\titleformat{\section}[display]
+  {\normalfont\bfseries}{}{0pt}{\large}
+  
+\titleformat{\subsection}[display]
+  {\normalfont\bfseries}{}{0pt}{\normalsize}
+  
+ \lstset{frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=4
+}
+
+\usepackage{geometry}
+\geometry{top=2cm, bottom=2cm, left=2cm, right=2cm}
+
+
+\begin{document}
+\begin{titlepage}
+   \begin{center}
+       \vspace*{1cm}
+
+       \Large{\textbf{Fiche d'introduction aux UE des cycles préparatoires}}
+
+       \vspace{0.5cm}
+       Avis et méthodes des Étudiants de la Faculté des Sciences et Ingénierie, groupe Sorbonne Universités
+            
+       \vspace{1.5cm}
+
+       \textbf{L'équipe des Étudiants pilotes}
+       \medskip \\
+       Document à destination des nouveaux arrivants \\ sur le campus Pierre et Marie Curie
+            
+       \vspace{0.8cm}
+     
+       \includegraphics[width=0.4\textwidth]{/home/theo/Images/Marie_Curie_Radium.jpeg} \\
+       \bigskip
+       
+       \large{\textbf{Avec la collaboration de :}\\ \normalsize{Nom des collaborateurs.}}
+            
+   \end{center}
+\end{titlepage}
+
+
+\chapter{\centerline{Introduction}}
+
+\textit{Pour commencer, Félicitations et Bienvenue à la Faculté des Sciences et Ingénierie du groupe Sorbonne Universités. Nous espérons que vous apprécierez votre parcours parmi nous et que vous en ressortirez plus que satisfaits. Cette fiche est le fruit de la collaboration de plusieurs étudiants en cycle préparatoire (L1) issus de différentes sections et de différents niveaux afin de vous donner la vision la plus générale et objective possible sur cette année. Cette fiche traitera des différentes UE (Unités d'enseignement) et de la méthode de travail à adopter. \medskip}
+
+\textit{{\emph{Attention : la méthode de travail varie entre chaque étudiant, cette fiche n'est donnée qu'à titre informatif et ne doit en aucun cas être lue comme une méthode à suivre en toute situation. Ce sera l'expérience et votre manière d'aborder les UE qui dicteront votre méthode, cette fiche sert à vous donner des pistes à explorer afin de vous aider à trouver \emph{votre} méthode.}}}
+\newpage
+
+\tableofcontents
+\chapter{\centerline{Premier Semestre}}
+\section{UE communes}
+\textit{Bien qu'il existe différents parcours de cycle d'intégration, ces derniers comprennent des UE qui leurs sont communes, et à ne pas négliger!}
+
+\subsection{Orientation et Insertion Professionnelle}
+\subsection{Mathématiques pour les Sciences 1}
+
+\section{UE partagées}
+Au premier Semestre, vous suivrez trois des UE qui vous sont proposées ci-dessous \emph{en fonction de votre section.} Par exemple, un étudiant en BGC ne peut pas s'inscrire en électronique ou Physique (Optique et Électrocinétique), bien que la Mécanique-Physique reste accessible, comme un MIPI ne peut accéder à la Biologie ou la Chimie. En bref, faites preuve de discernement pendant vos choix!
+\subsection{\quad Chimie: structure et réactivité}
+\subsection{\quad Introduction à l'électronique}
+\subsection{\quad Éléments de programmation 1}
+\subsection{\quad Optique et Électrocinétique}
+\subsection{\quad Mécanique Physique 1}
+\subsection{\quad Organisations cellulaires du vivant}
+\subsection{\quad Géosciences 1: Le système Terre}
+
+\chapter{\centerline{Deuxième Semestre}}
+\section{UE communes}
+\subsection{\quad Mathématiques pour les sciences 2}
+\subsection{\quad Initiation aux mineures transdisciplinaires thématiques (IMTT) \emph{ou} Atelier de Recherche Encadré (ARE)}
+\subsection{\quad Anglais L1}
+\section{UE partagées}
+Au second semestre, votre champ de disciplines se réduit quelque peu, vous ne pourrez choisir, à votre grand désarroi, que deux des UE ci-dessous. Le principe d'exclusivité décrit pour le premier semestre est toujours en vigueur.
+\subsection{\quad Transformations chimiques en solution aqueuse}
+\subsection{\quad Fondements de l'électronique}
+\subsection{\quad Éléments de programmation 2}
+\subsection{\quad Mathématiques approfondies}
+\subsection{\quad Mécanique Physique 2}
+\subsection{\quad Organisation moléculaire du vivant}
+\subsection{\quad Géosciences 2}
+\subsection{\quad Projet FABLAB}
+\end{document}
